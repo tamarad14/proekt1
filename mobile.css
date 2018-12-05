@@ -1,0 +1,82 @@
+@media only screen and (max-width: 425px){
+ #hero{
+     background-position: left;
+     opacity: 0.8;
+ }
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header .logo{
+    align-self: center;
+    padding-left: 0;
+    padding-top:20px;
+    margin:0;
+    font-size: 30px;
+}
+
+.header ul {
+    font-size: 18px;
+    margin: 0;
+}
+.center{
+    margin-top:100px;
+}
+
+.mobile{
+    font-size:50px;
+    text-align: center;
+    
+}
+.mobileOne{
+    font-size:25px;
+}
+.responsive{
+    margin-top:0;
+}
+.btn{
+    padding: 20px;
+    width: 230px;
+    border-radius: 5px;
+}
+.spanBtn{
+    font-size: 20px;
+}
+.work h2, .workOne h2{
+    font-size:30px;
+}
+.work, .workOne{
+    width: 60%;
+}
+.big, .small{
+    height: 400px;
+    width: 300px;
+}
+.flexAwesome{
+    width: 75%;
+    margin:0 auto;
+}
+.flexAwesome  h4{
+    font-size: 20px;
+}
+.form{
+    flex-direction: column;
+    margin-left: 30px;
+}
+.form input{
+    min-width: 250px;
+    margin:0;
+}
+.btn1{
+    padding: 20px;
+    margin:35px;
+}
+.social .fa{
+    margin:5px;
+}
+.footerText{
+    line-height: 20px;
+    font-size: 15px;
+}
+}

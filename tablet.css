@@ -1,0 +1,49 @@
+@media only screen and (max-width:768px){
+    #hero{
+        opacity: 0.8;
+    }
+   
+    .center{
+        margin-top:200px;
+    }
+    .work{
+        width: 80%;
+    }
+    .firstDiv, .secondDiv{
+        flex-direction: column;
+    
+    }
+    .big, .small{
+        width: 100%;
+        
+    }
+    .workOne{
+        width: 80%;
+    }
+    .flexAwesome{
+        flex-direction: column;
+       
+    }
+    .flexAwesome > div {
+        width: 55%;
+        margin: 0 auto;
+    }
+    .form{
+        flex-direction: column;
+        margin-left:50px;
+    }
+    .form input{
+        min-width: 500px;
+        border:1px solid gray;
+    }
+    .btn1{
+       margin-left:180px;
+       border-radius:5px;
+    }
+
+    .footer{
+        border: 0;
+    }
+
+   
+}

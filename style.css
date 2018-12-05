@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+}
+#hero{
+    background-image: url("images/hero.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    top:0;
+    z-index: 2;
+    opacity: 0.9;
+  
+}
+#hero-overlay{
+    position: absolute;
+    top:0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.header{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    color:white;   
+}
+.header .logo{
+    float: left;
+    padding-left:50px; 
+    font-size:20px;
+}
+.header ul {
+    /* display: flex; */
+    float: right;
+    margin-right: 50px;
+    font-size: 15px;
+    
+}
+.header ul li {
+    padding: 12px;
+    display: inline-block;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    margin-top:300px;
+    color:white;
+}
+.btn{
+    padding: 10px;
+    background-color: blue;
+    width: 150px;
+    border:0;
+    color:white;
+    font-weight: bold;
+    align-self: center;
+}
+.responsive{
+    align-self: center;
+}
+
+.images{
+    width: 100%;
+    min-height: 80vh;
+}
+
+.work{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+    color:rgb(73, 72, 72);
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.loremText{
+    line-height: 30px;
+}
+.hrLine{
+    background-color:blue;
+    height: 3px;
+    width: 150px;
+}
+.hrLineOne{
+    background-color:blue;
+    height: 2px;
+    width: 150px;
+}
+
+.width{
+    width: 80%;
+    margin:30px auto;
+
+}
+.firstDiv, .secondDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.big{
+    width: 60%;
+    height: 200px;
+    padding: 10px;
+    
+}
+.small{
+    width: 40%;
+    height: 200px;
+    padding: 10px;
+}
+
+.fontAwesome{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+
+.workOne{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+    color:rgb(73, 72, 72);
+    padding-top:70px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.flexAwesome{
+    width: 100%;
+    display: flex;
+   
+}
+.flexAwesome > div {
+    width: 30%;
+    text-align: center;
+    line-height: 30px;
+    padding: 40px;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.form input{
+    min-width: 400px;
+    margin: 20px;
+    padding: 15px;
+}
+.btn1{
+    width: 200px;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border:0;
+}
+
+.footer{
+    min-height: 20vh;
+    background-color: rgb(65, 64, 64);
+    border-bottom: 1px solid white;
+}
+.social{
+    padding:50px;
+    text-align: center;
+
+}
+.social .fa{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:white;
+}
+
+.white{
+    color:white;
+}
+
+.footerText{
+    color: grey;
+    line-height:0;
+}
